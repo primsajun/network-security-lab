@@ -15,3 +15,11 @@ public class DES {
     System.out.println("Decrypted: " + new String(dec));
   }
 }
+
+/*
+output:
+
+Encrypted: YZ1eb3PRBtA
+Decrypted: Hello
+
+*/
