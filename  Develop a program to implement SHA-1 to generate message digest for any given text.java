@@ -12,3 +12,13 @@ public class SHA1Short {
         System.out.println("SHA-1: " + hex);
     }
 }
+
+
+/*
+
+output:
+
+Enter text: prime
+SHA-1: ea756c3ad19a39cfcc25922ff018ba8f797c88c3
+
+*/
