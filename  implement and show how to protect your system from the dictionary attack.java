@@ -59,10 +59,12 @@ public class ShortAuth {
 
 
 /* 
+
 output:
 NEW USER NAME: prime
 PASSWORD: 1234
 USER NAME: prime
 PASSWORD: 1234
 ok
+
 */
