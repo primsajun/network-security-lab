@@ -18,3 +18,15 @@ public class VPN {
         System.out.println("Exit: " + e);
     }
 }
+
+
+/*
+output:
+
+Connecting to MyVPN...
+Connected to MyVPN.
+
+Exit: 0
+
+
+*/
