@@ -8,6 +8,14 @@ public class DSA {
     s.update(m); byte[] sig=s.sign();
     s.initVerify(k.getPublic()); 
     s.update(m); 
-    System.out.println(s.verify(sig));
+    System.out.println("DSA verify:"+ s.verify(sig));
   }
 }
+
+
+/*
+output:
+
+DSA verify:true
+
+*/
