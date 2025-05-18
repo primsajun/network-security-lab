@@ -11,3 +11,10 @@ public class HMAC {
     }
     
 }
+
+/*
+output:
+
+HMAC : 01b7a134ce2d2402239a7a2485cc3df50bf06e3f32a65777353e04a05d865f31
+
+*/
