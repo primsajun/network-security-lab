@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    Message:<br>
+    <textarea id="msg" rows="3" cols="30">HELLO</textarea><br>
+    <button onclick="const p=61,q=53,n=p*q,phi=(p-1)*(q-1),e=17;
+                     let d=1;while((e*d)%phi!==1)d++;
+                     const modPow=(b,x,m)=>{let r=1;
+                     while(x>0){if(x&1)r=r*b%m;b=b*b%m;x>>=1}return r};
+                     let t=document.getElementById('msg').value,enc=[],dec='';
+                     for(let c of t)enc.push(modPow(c.charCodeAt(0),e,n));
+                     for(let c of enc)dec+=String.fromCharCode(modPow(c,d,n));
+                     alert('Encrypted: '+enc.join(' ')+'\\nDecrypted: '+dec);">Run RSA
+    </button>
+  </body>
+</html>
