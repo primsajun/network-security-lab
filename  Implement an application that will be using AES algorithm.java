@@ -13,3 +13,11 @@ public class AES {
   System.out.println("Enc:"+e+"\nDec:"+d);
  }
 }
+
+
+/*
+output:
+Enc:Sy+szA6t7l9kO128yIajHQ==
+Dec:Hello
+
+ */
