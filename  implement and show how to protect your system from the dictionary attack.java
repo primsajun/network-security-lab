@@ -39,16 +39,16 @@ public class ShortAuth {
       
   }
   public static void main(String[]a)throws Exception{Scanner sc=new Scanner(System.in);
-  System.out.print("user: ");
+  System.out.print("NEW USER NAME: ");
   String u=sc.nextLine();
-    System.out.print("pass: ");
+    System.out.print("PASSWORD: ");
     String p=sc.nextLine();
     reg(u,p);
     for(int i=0;i<4;i++)
     {
-        System.out.print("log user: ");
+        System.out.print("USER NAME: ");
         String u2=sc.nextLine();
-    System.out.print("log pass: ");
+    System.out.print("PASSWORD: ");
     String p2=sc.nextLine();
     log(u2,p2);
         
@@ -56,3 +56,13 @@ public class ShortAuth {
       
   }
 }
+
+
+/* 
+output:
+NEW USER NAME: prime
+PASSWORD: 1234
+USER NAME: prime
+PASSWORD: 1234
+ok
+*/
